@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <remote name="aosp" fetch="https://android.googlesource.com/" />
+  <default remote="aosp" sync-j="4" />
+  <project path="build" name="kernel/build" revision="3c59f3e808085ed76380a5e0bd2fca8d09cb3ebf" clone-depth="1" />
+  <project path="common" name="kernel/common" revision="df6358ff3c5c0a7b11ce3f8a71f8fe5e56e64b89" clone-depth="1" />
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="6e3223f76384455acde43affde3df0ea9df66c0d" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="4e6f66acf138d40d9a80be24b275abb9c6eed729" clone-depth="1" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="cfedc16ec3deb680fca6fe2aff44a1837a97b50d" clone-depth="1" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="ca5b087f88c0302ff66f59a6f26be663e92baf15" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="34bc8bfb493401f7aadbd3b434f9fbfa521e9301" clone-depth="1" />
+</manifest>
