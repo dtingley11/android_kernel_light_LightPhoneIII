@@ -1,6 +1,7 @@
-# Light Phone III kernel
+# Unofficial Light Phone III kernel
 
 Android 12 GKI 5.10.198, based on `android12-5.10-2024-01_r3`.
+Not affiliated with or endorsed by Light.
 Requires vendor modules extracted from stock LP3 firmware.
 
 ```sh
